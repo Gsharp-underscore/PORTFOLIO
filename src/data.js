@@ -19,7 +19,7 @@ const ProjectsData = [
     live: "https://forkify-pavi.netlify.app",
     source: "https://github.com/Pavithrank02/JS-contents/tree/main",
     description:  
-        "Recipe Details: Display detailed information about each recipe, including ingredients, preparation steps, cooking time, serving size, nutritional information, and user reviews",
+        "Forkify website will provide Recipe Details. Display detailed information about each recipe, including ingredients, preparation steps, cooking time, serving size, nutritional information, and user reviews",
   },
   {
     id: "chat",
@@ -40,7 +40,7 @@ const ProjectsData = [
     live: "https://workerdashboard.netlify.app",
     source: "https://github.com/Pavithrank02/prj-dashboard",
     description:  
-        "Multi-page space dashboard provides relevent information for users. It's a Figma design conversion to react. Goal was to get it looking as close to the design as possible.",
+        "Multi-page space dashboard provides relevent information for users. It's a Figma design conversion to react. Goal was to get it looking as close to the design as possible.Include a form builder tool that allows users to create customized forms to collect user data, such as email addresses or feedback. Provide options to integrate with popular email marketing services or CRM platforms",
   },
 
   {

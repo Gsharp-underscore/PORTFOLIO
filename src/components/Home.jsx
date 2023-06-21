@@ -27,20 +27,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='container-fluid'>
-       <div className='d-sm-flex align-items-center justify-content-between'>
-          <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
-            <About />
-          </div>
-        </div>
-      </div>
-      <div className='container-fluid'>
-       <div className='d-sm-flex align-items-center justify-content-between'>
-          <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
-            <Contact />
-          </div>
-        </div>
-      </div>
     </section>
     
   )

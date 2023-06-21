@@ -14,7 +14,7 @@ function Project({id, image, name, stack, live, source, desc}) {
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{desc}</p>
-                    <div className="mt-5 align-text-bottom">
+                    <div className="mt-3 align-text-bottom">
                         <p className="card-text">{stack}</p>
                             <p className="card-text d-flex gap-4">
                                 <a href={live} target="_blank" rel="noreferrer" className='link'>
