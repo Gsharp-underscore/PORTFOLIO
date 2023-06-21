@@ -54,7 +54,16 @@ const ProjectsData = [
         "Customizable Templates: Provide a variety of professionally designed templates for users to choose from. These templates can serve as a starting point for creating their landing pages",
   },
 
-
+  {
+    id: "youtube",
+    img: youtube,
+    name: "Youtube Clone",
+    stack: ["< Reactjs />", "< tailwind CSS />", "< RESTAPI />"],
+    live: "https://react-youtube-prj.netlify.app",
+    source: "https://github.com/Pavithrank02/react-youtube",
+    description:  
+        "Begin by setting up a new React application using a tool like Create React App. This will provide you with the basic project structure and configuration. Use a routing library like React Router to handle navigation within your YouTube clone. Define routes for different pages, such as the home page, video page, user profile, and search results",
+  },
    
 ];
 

@@ -11,7 +11,7 @@ const Contact = () => {
     
         emailjs
             // service id, template id and your public key, get these by registering on EmailJs
-          .sendForm('service_k0yf07i', 'template_d3i9txs', form.current, 'Dm939mnlPcJjrKRMC')
+          .sendForm('service_q2pdlbq', 'template_gxwl5ir', form.current, 'ksg1haAIjHq6UUtLL')
           .then(
             () => {
               alert('Message successfully sent!')

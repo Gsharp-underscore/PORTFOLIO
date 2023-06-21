@@ -1,8 +1,7 @@
 import React from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
 import { NavLink } from 'react-router-dom';
-import About from './About';
-import Contact from './Contact';
+
 
 const Home = () => {
   return (
