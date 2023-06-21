@@ -1,6 +1,8 @@
 import React from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
 import { NavLink } from 'react-router-dom';
+import About from './About';
+import Contact from './Contact';
 
 const Home = () => {
   return (
@@ -25,7 +27,22 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className='container-fluid'>
+       <div className='d-sm-flex align-items-center justify-content-between'>
+          <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
+            <About />
+          </div>
+        </div>
+      </div>
+      <div className='container-fluid'>
+       <div className='d-sm-flex align-items-center justify-content-between'>
+          <div className='ms-sm-5 ps-sm-5 d-flex flex-column text-center align-items-center align-items-lg-start'>
+            <Contact />
+          </div>
+        </div>
+      </div>
     </section>
+    
   )
 }
 
