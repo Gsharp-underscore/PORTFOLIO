@@ -1,10 +1,11 @@
 import React from 'react'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { BiLinkExternal } from 'react-icons/bi'
+import {motion} from 'framer-motion'
  
 function Project({id, image, name, stack, live, source, desc}) {
   return (
-    <div className="">
+    <motion.div animate={{ x: 50, scale: 1}} initial={{scale: 0}} transition= {{type: "tween", duration: 2}} className="">
         <div className="card mb-5" style={{maxWidth:'900px'}}>
         <div className="g-0 d-flex flex-column flex-lg-row align-items-center ">
             <div className="">
@@ -29,7 +30,7 @@ function Project({id, image, name, stack, live, source, desc}) {
             </div>
         </div>
         </div>
-    </div>
+    </motion.div>
     
   )
 }

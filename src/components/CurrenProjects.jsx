@@ -2,6 +2,7 @@ import React from 'react'
 import data from '../data.js'
 // import InprogressProjects from './InprogressProjects.js'
 import Project from './Project.jsx'
+import {motion} from 'framer-motion'
 
 const Projects = () => {
   return (
