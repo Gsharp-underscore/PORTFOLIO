@@ -37,11 +37,9 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
-.custom-bg{
-  
-}
 
 .custom-btn{
   border-color: var(--clr-primary-3);
