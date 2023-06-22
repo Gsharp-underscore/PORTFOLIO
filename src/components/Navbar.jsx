@@ -1,6 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/logo.png' 
+import logo from '../assets/logo.png'
+import { motion } from 'framer-motion'
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Navbar = () => {
   const handletheme = () => {
@@ -14,21 +17,21 @@ const Navbar = () => {
           <span className="ms-2 fw-bold">paviportfolio</span>
           <FontAwesomeIcon icon="fa-solid fa-moon" />
         </div>
-        
+
         <div className="">
           <NavLink to='/' className="link me-5">Home</NavLink>
           <NavLink to='/about' className="link me-5">About</NavLink>
           <NavLink to='/projects' className="link">Projects</NavLink>
         </div>
-        
-        <div>
+
+        <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
           <NavLink to='/contact' className="link">
             <button className='mt-5 m-lg-0 btn btn-primary custom-btn fw-bold'>Contact me</button>
           </NavLink>
-        </div>
+        </motion.div>
 
       </div>
-  </nav>
+    </nav>
   )
 }
 
