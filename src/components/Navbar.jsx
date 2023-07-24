@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import logo from '../assets/logo.png'
 import { motion } from 'framer-motion'
 
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Navbar = () => {
   
   return (

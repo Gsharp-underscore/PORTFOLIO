@@ -7,7 +7,11 @@ import resume from '../assets/Pavithran Resume.pdf'
 
 const About = () => {
   return (
-    <div className='container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100'>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className='container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100' id='about'>
       <motion.p animate={{ x: 0, scale: 1 }} initial={{ scale: 0 }} transition={{ type: "spring", duration: 2 }} className="text-center lead m-4">
         I'm a react frontend developer with 1+ years of experience in web development. I love creating responsive websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap, and Sass/Scss.
         I enjoy creating website designs in Figma and converting UI designs into real websites. I've done multiple small projects to learn basics and now doing more complex projects.
@@ -33,7 +37,7 @@ const About = () => {
         <a href='https://www.linkedin.com/in/pavithrank12/'> <img className='m-2' src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="html5" width="40" height="40" /> </a>
         <a href='https://app.netlify.com/teams/pavithrank02/sites'> <img className='m-3' src="https://jeancochrane.com/static/images/blog/netlify-identity-dealbreakers/netlify-logo.png" alt="html5" width="40" height="40" /> </a>
       </motion.p>
-    </div>
+    </motion.div>
   )
 }
 

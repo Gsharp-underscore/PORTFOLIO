@@ -24,7 +24,7 @@ const Contact = () => {
       }
 
   return (
-    <div className="container-fluid p-5">
+    <div className="container-fluid p-5" id='contact'>
       <div className="d-sm-flex align-items-center justify-content-center">
         <div>
             <form ref={form} onSubmit={sendEmail}>
