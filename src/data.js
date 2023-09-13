@@ -4,6 +4,7 @@ import dashboard from './assets/images/Dashboard.png'
 import forkify from './assets/images/Forkify Website.png'
 import landing from './assets/images/Landing Page.png'
 import youtube from './assets/images/Youtube.png'
+import Netflix from './assets/images/Netflix.png'
 // in progress projects
 
 // import Servista from './assets/portfolioImages/servista.PNG'
@@ -30,6 +31,16 @@ const ProjectsData = [
     source: "https://github.com/Pavithrank02/chat-gpt",
     description:  
         "This challenge from frontendmentor tested my skills to create websites, a common pattern on larger sites. It also has some nice basic layout challenge. Use the API integration to handle chat interactions. When the user sends a message, make an API request to send their input to the ChatGPT API. Receive the response and display it in the chat interface",
+  },
+  {
+    id: "gpt",
+    img: Netflix,
+    name: "Netflix_GPT Website",
+    stack: [ "< React.js />, ", " < TailwindCSS />" , "< Redux />", "< RestAPI />"],
+    live: "https://netflix-gpt-website.netlify.app/",
+    source: "https://github.com/Pavithrank02/netflix_gpt",
+    description:  
+        "This project aims to seamlessly integrate ChatGPT into the Netflix platform to enhance user engagement, provide personalized content recommendations, and offer a conversational interface for users to interact with Netflix services",
   },
 
   {
